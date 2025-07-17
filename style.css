@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Segoe UI', sans-serif;
+  line-height: 1.6;
+  background: #fff5f0;
+  color: #333;
+}
+header {
+  text-align: center;
+  padding: 2rem 1rem;
+  background-color: #ff7f50;
+  color: white;
+}
+.hero {
+  text-align: center;
+  padding: 3rem 1rem;
+  background: linear-gradient(145deg, #ffe0d1, #fff5f0);
+}
+.btn {
+  display: inline-block;
+  margin-top: 1rem;
+  background: #ff7f50;
+  color: white;
+  padding: 0.75rem 1.5rem;
+  border-radius: 5px;
+  text-decoration: none;
+}
+.projects {
+  padding: 3rem 1rem;
+  background-color: white;
+}
+.project-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  justify-content: center;
+}
+.project-card {
+  background: #fff0e0;
+  padding: 1.5rem;
+  border-radius: 10px;
+  width: 300px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+}
+.project-card:hover {
+  transform: scale(1.05);
+}
+.contact {
+  background: #ffe0d1;
+  padding: 3rem 1rem;
+  text-align: center;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 500px;
+  margin: auto;
+}
+form input, form textarea {
+  margin-bottom: 1rem;
+  padding: 0.75rem;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+form button {
+  background: #ff7f50;
+  color: white;
+  border: none;
+  padding: 0.75rem;
+  cursor: pointer;
+  border-radius: 5px;
+}
+footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: #ff7f50;
+  color: white;
+}
+.reveal {
+  opacity: 0;
+  transform: translateY(40px);
+  transition: all 0.6s ease;
+}
+.reveal.active {
+  opacity: 1;
+  transform: translateY(0);
+}
