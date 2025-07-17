@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Actixen Digital Marketing</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="reveal">
+    <h1>🚀 Actixen Digital</h1>
+    <p>Grow Your Brand Like It's in Season</p>
+  </header>
+
+  <section class="hero reveal">
+    <h2>We build visibility, traffic & revenue</h2>
+    <p>SEO, Paid Ads, Social Media, Content, & Strategy</p>
+    <a href="#contact" class="btn">Get a Free Consultation</a>
+  </section>
+
+  <section class="projects reveal">
+    <h2>Featured Work</h2>
+    <div class="project-grid">
+      <div class="project-card">
+        <h3>Ecommerce SEO Surge</h3>
+        <p>Increased organic traffic 230% for a fashion store in 3 months.</p>
+      </div>
+      <div class="project-card">
+        <h3>Lead Gen Ads</h3>
+        <p>Reduced CPL by 48% for a real estate client using Meta Ads + email funnels.</p>
+      </div>
+      <div class="project-card">
+        <h3>Instagram Growth</h3>
+        <p>Grew follower base 500% in 8 weeks with reels + niche strategy.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="contact reveal" id="contact">
+    <h2>Let's Work Together</h2>
+  <form action="https://formsubmit.co/YOUR_EMAIL" method="POST">
+      <input type="text" name="name" placeholder="Your Name" required />
+      <input type="email" name="email" placeholder="Your Email" required />
+      <textarea name="message" rows="4" placeholder="What do you need help with?" required></textarea>
+      <input type="hidden" name="_subject" value="New Lead from Actixen Website">
+      <button type="submit">Send Message</button>
+    </form>
+    <p class="form-status">We'll reply within 24h.</p>
+  </section>
+
+  <footer>
+    <p>© 2025 Actixen Digital — All Rights Reserved</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
